@@ -14,7 +14,7 @@ func New() *Blog {
 }
 
 func (b *Blog) SaveArticle(article Article) {
-	b.Articles = append(b.Articles, article)
+	//b.Articles = append(b.Articles, article)
 }
 
 func (b *Blog) FetchAll() []Article {
